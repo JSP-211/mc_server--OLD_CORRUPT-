@@ -7,7 +7,7 @@ import java.nio.ByteBuffer;
 /**
  * @author sonikhak (https://github.com/sonikhak)
  */
-public interface Decoder {
+public interface Codec {
     public int opcode();
     public void decode(Buffer out, ByteBuffer in);
 }
